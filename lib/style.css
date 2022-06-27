@@ -5,7 +5,6 @@
   }
 
 
-
 canvas { border: 1px solid black; 
 
     font-family: 'Courier New', Courier, monospace;
@@ -17,11 +16,12 @@ canvas { border: 1px solid black;
 
 body {
 
-  background:url(/Azul-marino.jpg) no-repeat;
+  background:#00416A no-repeat;
   background-size: cover;
 
  
 }
+
 
 
 
