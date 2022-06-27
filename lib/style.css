@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 10;
+  }
+
+
+
+canvas { border: 1px solid black; 
+
+    font-family: 'Courier New', Courier, monospace;
+    
+    
+
+
+}
+
+body {
+
+  background:url(/Azul-marino.jpg) no-repeat;
+  background-size: cover;
+
+ 
+}
+
+
+
+.box button{
+   
+   border: 0.1em solid black;
+   border-radius: 5px;
+   padding: 0.5em 1.2em;
+   background: gold;
+   font-size: 1fr;
+   text-align: center;
+   font-family:Monaco,Georgia,Times,serif;
+   text-transform: uppercase;
+   font-weight: bold;
+   
+   font-size: 14px;
+   border-radius: 0.4em;
+   width: 12em;
+   
+    
+    
+  
+
+}
+
+
+
+.box2 button{
+
+  background: rgb(255, 0, 43);
+  border: 0.1em solid black;
+
+  font-size: 1fr;
+  text-align: center;
+  font-family:Monaco,Georgia,Times,serif;
+  text-transform: uppercase;
+
+  font-size: 14px;
+  padding: 0.5em 1.2em;
+  font-weight: bold;
+  border-radius: 0.5em;/*borde*/
+  width: 9em;/*controlador de espacio*/
+  
+  
+  
+}
+
+
+
+
+

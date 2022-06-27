@@ -1,0 +1,73 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="lib/style.css">
+    <script type="module">
+
+        import {agregar} from './lib/index.js';
+        import {insertar_al_final} from './lib/index.js';
+        import {insertar_antes_x} from './lib/index.js';
+        import {inserta_despues_X} from './lib/index.js';         
+        import {eliminarPrimer} from './lib/index.js'; 
+        import {eliminarFinal} from './lib/index.js'; 
+        import {eliminar_XX} from './lib/index.js'; 
+        import {eliminar_DESPUES} from './lib/index.js'; 
+        import {eliminar_antes_XX} from './lib/index.js'; 
+        
+
+        window.agregar=agregar;
+        window.insertar_al_final=insertar_al_final;
+        window.insertar_antes_x=insertar_antes_x;
+        window.inserta_despues_X=inserta_despues_X;
+        window.eliminarPrimer=eliminarPrimer;
+        window.eliminarFinal=eliminarFinal;
+        window.eliminar_XX=eliminar_XX;
+        window.eliminar_DESPUES=eliminar_DESPUES;
+        window.eliminar_antes_XX=eliminar_antes_XX;
+
+
+
+
+
+    </script>
+
+</head>
+
+<body>
+    
+<canvas id="tutorial" width="700" height="150"></canvas>
+
+<div id="salida"></div>
+
+   
+   <section  class ="box" > 
+
+     <div>
+        <button onclick="agregar()">Insertar al inicio</button>
+        <button onclick="insertar_al_final()">Insertar al final</button>
+        <button onclick="insertar_antes_x()">Insertar ante de X</button>
+        <button onclick="inserta_despues_X()">Insertar despues de X</button>
+    </div>
+    
+    </section>  
+
+    <section class = "box2">
+        <div>
+            <button onclick="eliminarPrimer()">Eliminar primer</button>
+            <button onclick="eliminarFinal()">Eliminar Final</button>
+            <button onclick="eliminar_XX()">Eliminar X </button> 
+            <button onclick="eliminar_DESPUES()">Eliminar despues X</button>
+            <button onclick="eliminar_antes_XX()">Eliminar antes X</button> 
+        </div>
+    </section>
+
+
+
+
+
+      
+    
+    
+</body>
+
+</html>
